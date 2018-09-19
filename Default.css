@@ -1,0 +1,62 @@
+﻿.invalidRow {
+    background-color:goldenrod;
+}
+
+.invalidCol{
+    background-color:darksalmon;
+}
+
+.invalidRowCol{
+     background-color:chocolate;
+}
+
+.invalidEntry{
+     background-color:crimson;
+}
+
+.error{
+    color :red;
+}
+
+.validated{
+    color:green;
+    font-weight:bold;
+}
+
+table{
+    margin-top:5px;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    border-collapse:collapse;
+}
+
+table td{
+    border:solid black 1px;
+    border-collapse:collapse;   
+    padding: 0 6px; 
+} 
+
+table tr:nth-child(3) ,tr:nth-child(6){
+    border-bottom:solid black 3px;
+}
+
+table .col3, .col6 {
+    border-right:solid black 3px;
+}  
+
+.strike{
+    text-decoration: line-through;
+}
+
+#TextBoxInput{
+    width:100px;
+}
+
+#ButtonSubmit{
+    height:25px;
+}
+
+#ButtonValidate{
+    margin-top: 5px;
+    height:25px;
+} 
